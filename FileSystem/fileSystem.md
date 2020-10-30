@@ -1,4 +1,4 @@
-# File System
+# [File System](https://nodejs.org/api/fs.html)
 
 To use the file system we have to ***import fs*** 
 ``` javascript
@@ -7,7 +7,7 @@ const fs=require('fs');
 
 Before starting we will grab some knowledge about ***FILE SYSTEM FLAGS***.
 
-### FILE SYSTEM FLAGS
+### [FILE SYSTEM FLAGS](https://nodejs.org/api/fs.html#fs_file_mode_constants)
 
 #### Appending
 
@@ -34,3 +34,5 @@ Flag | Writting |  Reading| Create File(if path not exists) | Fails/Exception(if
 ```wx```|Yes|-|-|Yes|-
 ```w+```|Yes|Yes|Yes|-|Yes
 ```wx+```|Yes|Yes|-|Yes|-
+
+
